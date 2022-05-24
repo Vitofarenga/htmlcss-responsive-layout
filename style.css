@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 /* menu  */
+body{
+    font-family: 'PT Sans';
+}
 #menu{
     background-color: lightskyblue;
     position: fixed;
@@ -181,11 +184,11 @@ a{
 }
 #title4{
     font-size: 1em;
-    font-family: PT Sans;
+    font-family: 'PT Sans';
 }
 #title42{
     font-size: 3em;
-    font-family: PT Sans;
+    font-family: 'PT Sans';
     color: rgba(151,146,228,255);
 }
 #t42{
@@ -324,4 +327,62 @@ a{
     width: 18em;
     text-align: center;
     border-radius: 2em;
+    margin-top: 2em;
 }
+/* sezione 7 */
+#sez7{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    align-items: center;
+    background-color: rgba(151,146,228,255);
+}
+#sss71{
+    color: white;
+    font-family: PT Sans;
+}
+#ss72{
+    width: 100%;
+    text-align: center;
+    margin-top: 2em;
+}
+#sss72{
+    font-family: PT Sans;
+    font-size: 2.5em;
+    color:white;
+}
+#sss73{
+    font-family: PT Sans;
+    font-size: 4em;
+    color:rgb(255, 224, 25);
+}
+#ss74{
+    width: 100%;
+    text-align: center;
+    line-height: 2em;
+}
+#sss74{
+    color: white;
+}
+#sss75{
+    color: rgba(151,146,228,255);
+    font-family: PT Sans;
+}
+#ss75{
+    background-color: white;
+    width: 15em;
+    text-align: center;
+    padding: 1em;
+    border-radius: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+#sss76{
+    color: white;
+}
+#ss73{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+/* sezione 8 */
