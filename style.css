@@ -405,3 +405,177 @@ a{
 #sss81{
     color: white;
 }
+/* tablet */
+@media screen and (min-width: 768px){
+  #im2{
+      width: 20em;
+      }
+      #grande1{
+          display: flex;
+          align-content: flex-start;
+          flex-direction: column;
+          width: 60%;
+          align-self: flex-start;
+      }
+      .piccolo{
+          width: 30%;
+          
+          
+      }
+      #sez1{
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: space-evenly;
+          
+      }
+      .piccolo1{
+          height: 651px;
+          margin: 0;
+      }
+      .test{
+          align-self: flex-start;
+          display: flex;
+          width: 40em;
+          height: 11em;
+          
+      }
+      .contparacards{
+          display: flex;
+          text-align: left;
+          margin-left: 2em;
+         
+      }
+      .card{
+          display: flex;
+          flex-direction: row;
+      }
+      .firm{
+          
+          text-align: left;
+          margin-left: 2em;
+          
+      }
+      .condi{
+          display: flex;
+          flex-direction: column;
+      }
+      .cards{
+          width: 45%;
+      }
+      #sez5{
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: space-evenly;
+      }
+      
+      #sez6{
+          flex-direction: row;
+          justify-content: space-evenly;
+      }
+      #condi2{
+          width:50%;
+         
+      }
+      #condi3{
+          width:30%;
+          display: flex;
+          flex-direction: column;
+      }
+}
+/* computer */
+@media  screen and (min-width: 1200px) {
+    #sez1{
+        width:998px;
+        margin-right: 0;
+        margin-left: 50px;
+        display: flex;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+    }
+    #grande1{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .piccolo{
+        height: 415px;
+    }
+    #im1{
+        margin-left: 165px;
+    }
+    #mc{
+        margin-right: 165px;
+    }
+    #sez3{
+        width:998px;
+        margin-left: 50px;
+    }
+    #color1{
+        width: 100%;
+        background-color: rgba(151,146,228,255);
+    }
+    #sez3{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    #ss3{
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+    }
+    #tt3{
+        margin-top: 10em;
+
+    }
+    #contim3{
+        width: 45%;
+        height:
+    }
+    #sez4{
+        width: 998px;
+        margin-left: 50px;
+    }
+    .test{
+        width: 25em;
+    }
+    #color5{
+        width: 100%;
+        color: rgba(151,146,228,255);
+    }
+    #sez5{
+        width: 998px;
+        margin-left: 50px;
+    }
+    #tt5{
+
+    }
+    .cards{
+        width: 30%;
+        
+    }
+    #sez6{
+        width: 998px;
+        margin-left: 50px;
+    }
+    #sez7{
+        width: 998px;
+        margin-left: 50px;
+    }
+    #sez8{
+        width: 998px;
+        margin-left: 50px;
+    }
+    #color7{
+        width: 100%;
+        color: rgba(151,146,228,255) ;
+    }
+    #color8{
+        width: 100%;
+        color: black;
+    }
+}
